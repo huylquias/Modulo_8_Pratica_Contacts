@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    max-width: 360px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 32px 0;
+  }
+  
+  .input-fields {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input,
+  button,
+  th,
+  td {
+    padding: 8px;
+    margin: 8px;
+  }
+  
+  input,
+  table {
+    width: 100%;
+  }
+  
+  button,
+  table {
+    width: calc(100% - 16px);
+  }
+  
+  table {
+    margin: 8px;
+  }
+  
+  tr {
+    background-color: lightgrey;
+  }
+  
+  th {
+    width: 50%;
+    background-color: grey;
+  }
+  
+  td:nth-child(even) {
+    text-align: right;
+  }
